@@ -6,7 +6,7 @@
                     <div class="col-lg-4 text-lg-left" style="color:white">Copyright © Kecamatan Bandung kidul <?= date('Y')?> | Repost by <a href='https://multisite.bandung.go.id/kecamatan-bandung-kidul/' title='https://www.bandung.go.id' target='_blank'>bandung.go.id</a>
 					</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/bandungkidull/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="https://www.youtube.com/@bandungkidul4366"><i class="fab fa-youtube"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/bdgkidul/?hl=id"><i class="fab fa-instagram"></i></a>
                     </div>

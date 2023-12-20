@@ -27,7 +27,7 @@
                     <?= form_dropdown('jenis_surat', $options, '', ['id' => 'jenis', 'class' => 'form-control']); ?>
                 </div>
                 <div class="col-lg-12 mt-2">
-                    <label for="file">File Berkas/Lampiran <sup class="text-danger">*PDF Recommended! | Max 5MB</sup></label>
+                    <label for="file">File Berkas/Lampiran <sup class="text-danger">*PDF Recommended! | Max 14MB</sup></label>
                     <?= form_upload(['name' => 'file', 'id' => 'file', 'class' => 'form-control']) ?>
                 </div>
             </div>

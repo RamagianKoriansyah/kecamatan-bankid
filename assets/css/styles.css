@@ -10036,9 +10036,10 @@ img::-moz-selection {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: #212529;
+  position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; 
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;

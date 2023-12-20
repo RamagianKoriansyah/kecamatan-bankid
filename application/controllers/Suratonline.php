@@ -58,7 +58,7 @@ class Suratonline extends CI_Controller
             1 => 1,  // Pending
             2 => 2,  // Diterima dan Dilanjutkan
             3 => 3,  // Sudah Diketik dan Diparaf
-            4 => 4,  // Sudah Ditandatangani Lurah dan Selesai
+            4 => 4,  // Sudah Ditandatangani Camat dan Selesai
         ];
 
         $nama = $this->input->post('nama', TRUE);
@@ -110,7 +110,7 @@ class Suratonline extends CI_Controller
             $file = $jenis_surat.uniqid().$namafile;
             $config['upload_path']          = './uploads/berkas';
             $config['allowed_types']        = '*';
-            $config['max_size']             = 5120; // 5MB
+            $config['max_size']             = 14336; // 14MB
             $config['file_name']            = $file;
 
             $this->load->library('upload', $config);

@@ -1,14 +1,51 @@
  <!-- Masthead-->
  <header class="masthead">
  	<div class="container">
- 		<div class="masthead-subheading">SELAMAT DATANG!</div>
- 		<div class="masthead-heading text-uppercase"> Pelayanan Online Kecamatan Bandung Kidul</div>
- 		<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#struktur">Persyaratan</a>
+	 <div class="masthead-subheading" style="color: yellow;">SELAMAT DATANG!</div>
+	 <div class="masthead-heading text-uppercase" style="color: yellow;">Pelayanan Online Kecamatan Bandung Kidul</div>
+
+ 		<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger custom-border" href="#struktur">Persyaratan</a>
+
  	</div>
  </header>
+	<title>Dashboard</title>
+	<!DOCTYPE html>
+<html>
+<head>
+</div>
+
+	<style type="text/css">
+		body
+		{
+			background-color: darkblue; 	
+    		background-image: url("assets/img/kecamatan.jpg"); 
+    		background-repeat: no-repeat; 
+    		background-size: cover; 
+		}
+		.masthead-subheading,
+    	.masthead-heading {
+        	color: white;	
+        	text-shadow: 	 5px 2px 0 #000,  
+                     		 2px 2px 0 #000,
+                     		 2px 2px 0 #000,
+                     		 2px 2px 0 #000;
+   		}	
+			.custom-border {
+			color: black; 
+  			border: 5px solid #000; 
+  			border-radius: 15px;	 
+  			padding: 15px 40px; 
+		}
+
+	</style>
+</head>
+<body>
+
+</body>
+</html>
 
  <!-- profil-->
- <!--<section class="page-section" id="profil">
+ <!-- <section class="page-section" id="profil">
  	<div class="container">
  		<div class="text-center">
  			<h2 class="section-heading text-uppercase">Home</h2>
@@ -21,7 +58,7 @@
  </section> -->
 
  <!-- struktur -->
- <section class="page-section bg-light" id="struktur">
+ <section class="page-section bg-white" id="struktur">
  	<div class="container">
  		<div class="text-center">
  			<h2 class="section-heading text-uppercase">Persyaratan dan SOP Pelayanan</h2>
